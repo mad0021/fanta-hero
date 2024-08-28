@@ -1,5 +1,5 @@
 
-import Logo from "../assets/logo.png";
+import Logo from "../assets/v966-23.jpg";
 import { MdMenu } from "react-icons/md";
 import { FaRegUser } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -43,7 +43,7 @@ const Navbar = () => {
       >
         {/* logo section */}
         <div>
-          <img src={Logo} alt="" className="max-w-[100px] invert" />
+          <img src={Logo} alt="" className="max-w-[100px] invert rounded-full" />
         </div>
         {/* Menu section */}
         <div className="hidden md:block">

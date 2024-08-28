@@ -43,6 +43,7 @@ const headphoneData = [
     title: "Orange Fanta",
     subtitle:
       "Fanta Orange is available in almost every country. It is the original flavor that was created back in 1940 as a Nazi substitute of Coca-Cola. It exists both as a consumer product and as a fountain drink. Fanta Orange tends to taste differently around the world. This is because of the different nutritional ingredient rules.",
+    oldPrice: "9,99 €",
     price: "6,57 €",
     modal: "Orange",
     bgColor: "#cf4f00",
@@ -53,6 +54,7 @@ const headphoneData = [
     title: "Coca Cola",
     subtitle:
       "Coca-Cola is a carbonated soft drink sold in stores, restaurants, and vending machines in more than 200 countries. It is produced by The Coca-Cola Company of Atlanta, Georgia, and is often referred to simply as Coke, a registered trademark of The Coca-Cola Company in the United States since March 27, 1944. Originally intended as a patent medicine when it was invented in the late 19th century by John Pemberton, Coca-Cola was bought out by businessman Asa Griggs Candler, whose marketing tactics led Coke to its dominance of the world soft-drink market throughout the 20th century.",
+    oldPrice: "9,99 €",
     price: "7,68 €",
     modal: "Cola",
     bgColor: "#ac1a00",
@@ -63,6 +65,7 @@ const headphoneData = [
     title: "Pepsi",
     subtitle:
       "Pepsi is a carbonated soft drink with a cola flavor, manufactured by PepsiCo. Pepsi, originally created in 1893 by Caleb Bradham and named Brad's Drink, was first sold in his drugstore in New Bern, North Carolina. Renamed Pepsi-Cola in 1898 due to its supposed digestive benefits, it was shortened to Pepsi in 1961. The beverage formula initially included sugar and vanilla but not pepsin, despite speculation on the origin of its name",
+    oldPrice: "9,99 €",
     price: "8,65 €",
     modal: "Pepsi",
     bgColor: "#004B93",
@@ -73,6 +76,7 @@ const headphoneData = [
     title: "Monster Energy",
     subtitle:
       "Monster Energy is an energy drink that was created by Hansen Natural Company (now Monster Beverage Corporation) in April 2002. Monster Energy is known for their sponsorship and support for extreme sports events",
+    oldPrice: "6,99 €",
     price: "3,90 €",
     modal: "Monster",
     bgColor: "#95D600",
@@ -83,6 +87,7 @@ const headphoneData = [
     title: "Red Bull",
     subtitle:
       "Red Bull is a brand of energy drinks created and owned by the Austrian company Red Bull GmbH. With a market share of 43%, it is the most popular energy drink brand as of 2020, and the third most valuable soft drink brand behind Coca-Cola and Pepsi. Since its launch in 1987, more than 100 billion cans of Red Bull have been sold worldwide, including over 11.5 billion in 2022.",
+    oldPrice: "8,99 €",
     price: "5,49 €",
     modal: "Red Bull",
     bgColor: "#8D8F93",
@@ -93,6 +98,7 @@ const headphoneData = [
     title: "Sprite",
     subtitle:
       "Sprite was first introduced by The Coca-Cola Company in 1961 as a response to the popularity of 7 Up, a lemon-lime soda that had been on the market since the late 1920s. Coca-Cola saw an opportunity to enter the lemon-lime soda market and compete with 7 Up by creating their own lemon-lime flavored soda. The company's research and development team worked on creating a formula that would appeal to consumers, and in 1961, Sprite was release",
+    oldPrice: "3,99 €",
     price: "2,69 €",
     modal: "Sprite",
     bgColor: "#008B47",
@@ -235,7 +241,7 @@ const Hero = () => {
                         </div>
                         <div className="!mt-6 space-y-1 text-center">
                           <p className="text-base line-through opacity-50">
-                            {item.price}
+                            {item.oldPrice}
                           </p>
                           <p className="text-xl font-bold">{item.price}</p>
                           {/* <p className="text-xs font-normal text-nowrap">
